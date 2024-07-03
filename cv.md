@@ -64,3 +64,7 @@ public class Greed{
 # Education
 * University:   Faculty of Applied Mathematics and Computer Science of the Belarusian State University.
 
+# Languages
+* Russian - native
+* Balarrusian - native
+* English - B2
