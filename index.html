@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyliahzhanin Artsiom - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <img src="images/my_photo.jpg" alt="My Photo" class="profile-photo">
+            <h1>Vyliahzhanin Artsiom</h1>
+        </header>
+        
+        <section class="contact-info">
+            <h2>Contact Info</h2>
+            <ul>
+                <li>Email: <a href="mailto:vylegzaninartem1@gmail.com">vylegzaninartem1@gmail.com</a></li>
+                <li>GitHub: <a href="https://github.com/artemonchergithub">artemonchergithub</a></li>
+                <li>Discord: lemontage</li>
+            </ul>
+        </section>
+        
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>21 years old. I do photography and video shooting. My goals: to support a friend in this course and try myself in front-end development.</p>
+        </section>
+        
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java, Spring</li>
+                <li>Git, GitHub</li>
+                <li>Adobe Photoshop, Lightroom</li>
+                <li>DaVinci Resolve</li>
+            </ul>
+        </section>
+        
+        <section class="code-examples">
+            <h2>Code Examples</h2>
+            <article>
+                <a href="https://www.codewars.com/kata/5270d0d18625160ada0000e4"><h3>Task: Greed is Good</h3></a>
+                <pre><code class="lang-java">
+public class Greed {
+  public static int greedy(int[] dice){
+    int sum = 0;
+    int[] repeats = new int[6];
+    for (int die : dice) {
+        repeats[die - 1]++;
+    }
+    sum += repeats[0] / 3 * 1000 + repeats[0] % 3 * 100;
+    for (int i = 1; i < 6; i++) {
+        sum += repeats[i] / 3 * (i + 1) * 100;
+    }
+    sum += repeats[4] % 3 * 50;
+    return sum;
+  }
+}
+</code></pre>
+            </article>
+        </section>
+        
+        <section class="experience">
+            <h2>Experience</h2>
+            <!-- UwU -->
+        </section>
+        
+        <section class="education">
+            <h2>Education</h2>
+            <p>University: Faculty of Applied Mathematics and Computer Science of the Belarusian State University</p>
+        </section>
+        
+        <section class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>Russian - native</li>
+                <li>Belarusian - native</li>
+                <li>English - B2</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>
+            <a href="https://github.com/artemonchergithub">GitHub</a> | 
+            <span>&copy; 2024</span> | 
+            <a href="https://rs.school/courses/javascript-ru"><img src="images/rs-logo.svg" alt="RS Logo" class="rs-logo"></a>
+        </p>
+    </footer>
+</body>
+</html>
